@@ -68,9 +68,9 @@ node src/index.js public/ev_data.json average_daily_miles big-truck
 - Add additional logging to show the data related to the returned result. For example, if the user is running a query for average_daily_miles for cat-car, I would return the start date, the end date, and the miles driven in that time period
 - Make this program compatible with CSV files. I believe it's always best to make a program more flexible (but not at the expense of code readability - sometimes it might be better to write a separate program).
 
-# Task 2: Ticket Wwriteup
+# Task 2: Ticket Writeup
 
-Title: Add new query drove_nowhere to EV Data Query
-Description: Add a new query called drove_nowhere which should return the number of vehicles that were not driven at all on a given date, so it should take a date as an argument. The format of the date is not specified, so please implement it in a way where the user knows the format the date should be in. It also might be difficult to determine when a vehicle was driven. Take into account this case:
+- Title: Add new query drove_nowhere to EV Data Query
+- Description: Add a new query called drove_nowhere which should return the number of vehicles that were not driven at all on a given date, so it should take a date as an argument. The format of the date is not specified, so please implement it in a way where the user knows the format the date should be in. It also might be difficult to determine when a vehicle was driven. Take into account this case:
 
-- If the first data point was received at 12:00 PM and the next data point was received the next day at 12:00 PM and the odometer reading changed, we won't know if the vehicle was driven on the first day after 12:00 PM, or on the next day before 12:00 PM. We will need to clarify this later. A possible solution could be to include the vehicle in the return value for both dates.
+  - If the first data point was received at 12:00 PM and the next data point was received the next day at 12:00 PM and the odometer reading changed, we won't know if the vehicle was driven on the first day after 12:00 PM, or on the next day before 12:00 PM. We will need to clarify this later. A possible solution could be to exclude the vehicle on one of the days.
