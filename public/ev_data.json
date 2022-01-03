@@ -1,0 +1,985 @@
+{
+  "records": [
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.2,
+      "range_estimate": 40.0,
+      "odometer": 1200,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-01 12:01:03"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.73,
+      "range_estimate": 80.0,
+      "odometer": 1200,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-01 22:30:01"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 1.0,
+      "range_estimate": 87.0,
+      "odometer": 1200,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-02 12:12:03"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.6,
+      "range_estimate": 60.0,
+      "odometer": 1250,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-03 20:00:37"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.3,
+      "range_estimate": 45.0,
+      "odometer": 1275,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-04 8:55:12"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.3,
+      "range_estimate": 44.0,
+      "odometer": 1275,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-05 13:12:32"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.3,
+      "range_estimate": 44.0,
+      "odometer": 1275,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-06 12:23:56"
+    },
+    {
+      "vehicle_id": "cat-car",
+      "charge_reading": 0.3,
+      "range_estimate": 45.0,
+      "odometer": 1275,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-08 18:23:12"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 267.63,
+      "odometer": 56271,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-01 17:24:47"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 267.63,
+      "odometer": 56271,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-01 18:56:05"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 267.63,
+      "odometer": 56271,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-01 19:30:02"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 267.63,
+      "odometer": 56271,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-01 23:22:39"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 266.3,
+      "odometer": 56271,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-02 6:04:12"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.9,
+      "range_estimate": 250.2,
+      "odometer": 56273,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-02 7:40:14"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.8,
+      "range_estimate": 244.35,
+      "odometer": 56278,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-02 19:05:11"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.89,
+      "range_estimate": 268.32,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-03 15:14:23"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-04 3:51:01"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-04 5:58:52"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 136.2,
+      "odometer": 26132,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-01 13:24:59"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 136.9,
+      "odometer": 26132,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-01 13:26:19"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.6,
+      "range_estimate": 140.3,
+      "odometer": 26142,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-02 6:55:17"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.52,
+      "range_estimate": 138.2,
+      "odometer": 26147,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-03 1:32:41"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 120.2,
+      "odometer": 26147,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-03 1:44:41"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 120.2,
+      "odometer": 26147,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-03 19:26:44"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 120.2,
+      "odometer": 26147,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-04 2:15:46"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.6,
+      "range_estimate": 200.32,
+      "odometer": 26147,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-04 20:56:04"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.7,
+      "range_estimate": 214.37,
+      "odometer": 26147,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-05 7:05:51"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 1.0,
+      "range_estimate": 258.8,
+      "odometer": 26147,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-05 14:41:27"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.9,
+      "range_estimate": 252.5,
+      "odometer": 26150,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-06 2:58:50"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.9,
+      "range_estimate": 250.2,
+      "odometer": 26150,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-06 7:14:03"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 1.0,
+      "range_estimate": 260.6,
+      "odometer": 26150,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 13:09:33"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.9,
+      "range_estimate": 250.36,
+      "odometer": 26154,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-07 12:39:17"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.9,
+      "range_estimate": 251.0,
+      "odometer": 26154,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-07 14:35:12"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 1.0,
+      "range_estimate": 260.2,
+      "odometer": 26154,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-07 18:06:44"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 1.0,
+      "range_estimate": 261.82,
+      "odometer": 26154,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-08 12:59:53"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.9,
+      "range_estimate": 249.83,
+      "odometer": 26159,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-09 5:05:08"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.9,
+      "range_estimate": 250.0,
+      "odometer": 26159,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-09 18:03:55"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 1.0,
+      "range_estimate": 259.8,
+      "odometer": 26159,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-09 21:14:13"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 1.0,
+      "range_estimate": 259.32,
+      "odometer": 26159,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-10 14:29:38"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 110.3,
+      "odometer": 26170,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-11 0:41:31"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 600,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 5:55:29"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 600,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 12:14:44"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 600,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 13:26:27"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.78,
+      "range_estimate": 100.45,
+      "odometer": 620,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-07 4:33:06"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.86,
+      "range_estimate": 109.6,
+      "odometer": 620,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-07 23:09:18"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.65,
+      "range_estimate": 89.3,
+      "odometer": 632,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-08 6:49:05"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.4,
+      "range_estimate": 50.4,
+      "odometer": 643,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-08 21:07:48"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.4,
+      "range_estimate": 49.8,
+      "odometer": 643,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-08 23:15:12"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 643,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-09 8:08:50"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 643,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-09 10:02:58"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 643,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-10 5:56:56"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 667,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-11 2:33:01"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 667,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-11 16:49:56"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.87,
+      "range_estimate": 110.0,
+      "odometer": 676,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-12 7:01:09"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 0.79,
+      "range_estimate": 101.36,
+      "odometer": 680,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-12 19:41:25"
+    },
+    {
+      "vehicle_id": "electric-suv",
+      "charge_reading": 1.0,
+      "range_estimate": 120.3,
+      "odometer": 699,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-13 2:16:34"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.2,
+      "odometer": 6002,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-01 21:21:11"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.2,
+      "odometer": 6002,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-02 20:57:52"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.2,
+      "odometer": 6002,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-03 17:43:51"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.75,
+      "range_estimate": 109.67,
+      "odometer": 6008,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-04 8:06:08"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.6,
+      "odometer": 6008,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-04 15:44:28"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.0,
+      "odometer": 6008,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-05 11:38:49"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.6,
+      "odometer": 6008,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-05 22:48:15"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.0,
+      "odometer": 6012,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-06 11:38:12"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.4,
+      "range_estimate": 55.34,
+      "odometer": 6052,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-06 21:13:01"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.4,
+      "range_estimate": 54.2,
+      "odometer": 6052,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-07 0:22:49"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.2,
+      "range_estimate": 20.2,
+      "odometer": 6075,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-07 23:31:27"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.0,
+      "range_estimate": 20.2,
+      "odometer": 6075,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-08 6:28:08"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.0,
+      "odometer": 6075,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-09 1:59:47"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.4,
+      "range_estimate": 45.0,
+      "odometer": 6120,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-09 18:49:02"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.45,
+      "range_estimate": 47.65,
+      "odometer": 6122,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-10 4:57:07"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.68,
+      "range_estimate": 100.32,
+      "odometer": 6122,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-10 14:07:04"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.32,
+      "range_estimate": 32.36,
+      "odometer": 6140,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-11 13:51:11"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.27,
+      "range_estimate": 22.1,
+      "odometer": 6145,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-11 15:04:19"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.76,
+      "range_estimate": 109.34,
+      "odometer": 6145,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-11 20:16:39"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 114.69,
+      "odometer": 6145,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-12 3:43:36"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.67,
+      "odometer": 6145,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-12 15:02:20"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.67,
+      "odometer": 6145,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-13 12:18:28"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.8,
+      "range_estimate": 115.67,
+      "odometer": 6145,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-13 20:46:38"
+    },
+    {
+      "vehicle_id": "big-truck",
+      "charge_reading": 0.39,
+      "range_estimate": 40.6,
+      "odometer": 6163,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-14 5:39:22"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-04 16:06:27"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-05 9:37:10"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-05 18:05:28"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 12:52:58"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 16:27:03"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-06 23:04:48"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-07 7:15:10"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56306,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-07 15:08:01"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.7,
+      "range_estimate": 268.35,
+      "odometer": 56320,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-08 1:00:00"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.7,
+      "range_estimate": 268.35,
+      "odometer": 56320,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-08 5:54:29"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.7,
+      "range_estimate": 268.35,
+      "odometer": 56320,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-08 20:23:26"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.65,
+      "range_estimate": 268.35,
+      "odometer": 56322,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-09 4:13:40"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.32,
+      "range_estimate": 268.35,
+      "odometer": 56343,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-09 6:45:26"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.27,
+      "range_estimate": 268.35,
+      "odometer": 56346,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-09 18:31:13"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 0.86,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": true,
+      "created_at": "2020-01-09 22:27:57"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-10 3:39:03"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-10 18:28:18"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-11 16:23:53"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-12 3:02:46"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-12 10:45:02"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-13 1:41:31"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-13 21:25:51"
+    },
+    {
+      "vehicle_id": "clown-car",
+      "charge_reading": 1.0,
+      "range_estimate": 268.35,
+      "odometer": 56353,
+      "plugged_in": true,
+      "charging": false,
+      "created_at": "2020-01-14 14:29:00"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 112.7,
+      "odometer": 26171,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-11 9:59:55"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 119.36,
+      "odometer": 26171,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-12 7:39:27"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 119.36,
+      "odometer": 26171,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-12 22:50:26"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.5,
+      "range_estimate": 119.36,
+      "odometer": 26171,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-13 11:52:57"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.49,
+      "range_estimate": 123.2,
+      "odometer": 26173,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-13 13:49:38"
+    },
+    {
+      "vehicle_id": "hamster-car",
+      "charge_reading": 0.49,
+      "range_estimate": 123.34,
+      "odometer": 26173,
+      "plugged_in": false,
+      "charging": false,
+      "created_at": "2020-01-14 12:24:08"
+    }
+  ]
+}
