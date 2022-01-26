@@ -26,40 +26,48 @@ program
 
       switch (query) {
         case 'average_daily_miles': {
-          arg = arg.toLowerCase();
-          const vehicle_records = records.filter((r) => r.vehicle_id === arg);
-
-          if (vehicle_records.length === 0) {
-            throw new Error(`ERROR: No records found for ${arg}`);
-          }
-
-          const odometer_readings = vehicle_records.map((r) => r.odometer);
-          const miles_traveled = Math.max(...odometer_readings) - Math.min(...odometer_readings);
-          const dates = vehicle_records.map((r) => new Date(r.created_at.split(/\s/)[0]));
-          const time_period_in_days =
-            (new Date(Math.max.apply(null, dates)).getTime() - new Date(Math.min.apply(null, dates)).getTime()) /
-            (1000 * 3600 * 24);
-          const average_daily_miles = miles_traveled / time_period_in_days;
-          console.log(`Average daily miles for ${arg}: ${average_daily_miles}`);
-          return average_daily_miles;
+          average_daily_miles(records, arg.toLowerCase());
+          break;
         }
 
         case 'charged_above': {
-          const charge_reading = parseFloat(arg);
-          const records_above_reading = records.filter((r) => r.charge_reading > charge_reading);
-          const vehicle_ids = Array.from(new Set(records_above_reading.map((r) => r.vehicle_id)));
-          const num_vehicles = vehicle_ids.length;
-          console.log(
-            `Found ${num_vehicles} vehicles (${vehicle_ids.join(
-              ', ',
-            )}) that reported at least one charge_reading above ${charge_reading}`,
-          );
-          return num_vehicles;
+          charged_above(records, parseFloat(arg));
+          break;
         }
       }
     } catch (e) {
       console.error(e);
     }
   });
+
+const average_daily_miles = (records, vehicle_id) => {
+  const vehicle_records = records.filter((r) => r.vehicle_id === vehicle_id);
+
+  if (vehicle_records.length === 0) {
+    throw new Error(`ERROR: No records found for ${vehicle_id}`);
+  }
+
+  const odometer_readings = vehicle_records.map((r) => r.odometer);
+  const miles_traveled = Math.max(...odometer_readings) - Math.min(...odometer_readings);
+  const dates = vehicle_records.map((r) => new Date(r.created_at.split(/\s/)[0]));
+  const time_period_in_days =
+    (new Date(Math.max.apply(null, dates)).getTime() - new Date(Math.min.apply(null, dates)).getTime()) /
+    (1000 * 3600 * 24);
+  const average_daily_miles = miles_traveled / time_period_in_days;
+  console.log(`Average daily miles for ${vehicle_id}: ${average_daily_miles}`);
+  return average_daily_miles;
+};
+
+const charged_above = (records, charge_reading) => {
+  const records_above_reading = records.filter((r) => r.charge_reading > charge_reading);
+  const vehicle_ids = Array.from(new Set(records_above_reading.map((r) => r.vehicle_id)));
+  const num_vehicles = vehicle_ids.length;
+  console.log(
+    `Found ${num_vehicles} vehicles (${vehicle_ids.join(
+      ', ',
+    )}) that reported at least one charge_reading above ${charge_reading}`,
+  );
+  return num_vehicles;
+};
 
 program.parse(process.argv);
